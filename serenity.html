@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serenity | Projet de présentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">Serenity</div>
+        <nav class="site-nav">
+          <a href="index.html#projets">Portfolio</a>
+          <a href="#presentation">Présentation</a>
+          <a href="#fonctionnalites">Fonctionnalités</a>
+          <a href="#tech">Technologies</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="presentation" class="hero section-padding">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Projet Serenity</p>
+            <h2>
+              Et si la température de votre bureau impactait directement votre
+              bien- être et votre productivité ?
+            </h2>
+            <p class="hero-description">
+              Serenity est une solution logicielle innovante conçue pour aider
+              les entreprises à optimiser l'environnement de travail de leurs
+              collaborateurs. En plaçant l'humain au cœur de la donnée,
+              l'application permet de transformer des indicateurs
+              environnementaux bruts en leviers d'action pour le bien-être au
+              bureau. L'idée est simple mais puissante : utiliser des capteurs
+              connectés pour monitorer en temps réel l'écosystème physique d'une
+              entreprise. Ces données sont ensuite centralisées et restituées de
+              manière intelligible aux Responsables.
+            </p>
+            <div class="hero-actions">
+              <a href="https://serenity-front-react.vercel.app" class="button"
+                >Voir la démo</a
+              >
+              <a
+                href="https://github.com/Groupe-5-fil-rouge/serenity-backend"
+                class="button button-secondary"
+                >Voir le code</a
+              >
+            </div>
+          </div>
+          <div class="hero-photo-card">
+            <div
+              class="hero-photo"
+              aria-label="Illustration du projet Serenity"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fonctionnalites" class="section-padding section-muted">
+        <div class="container">
+          <div class="section-header">
+            <h2>Fonctionnement techniques</h2>
+          </div>
+          <div class="card-grid">
+            <article class="project-card">
+              <p class="meta">Collecte de données</p>
+              <p>
+                Déploiement de capteurs multi-paramètres par pièce (température,
+                pression atmosphérique, taux d'humidité).
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="meta">Traitement</p>
+              <p>
+                Réception et stockage des flux de données via une API sécurisée.
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="meta">Analyse & Visualisation</p>
+              <p>
+                Un tableau de bord dynamique transformant les relevés en
+                graphiques interactifs pour identifier les zones d'inconfort ou
+                les anomalies climatiques.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tech" class="section-padding">
+        <div class="container">
+          <div class="section-header">
+            <h2>Technologies utilisées</h2>
+          </div>
+          <div class="skills-grid">
+            <span class="skill">React.js</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">IoT</span>
+            <span class="skill">MQTT</span>
+            <span class="skill">Figma</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-padding section-muted">
+        <div class="container">
+          <div class="section-header">
+            <h2>Mes réalisations spécifiques</h2>
+          </div>
+          <div class="card-grid">
+            <article class="project-card">
+              <h3>Design</h3>
+              <p>Création de l'intégralité des maquettes UI/UX du projet.</p>
+            </article>
+            <article class="project-card">
+              <h3>Temps Réel & Filtrage</h3>
+              <p>
+                Implémentation de Socket.IO pour les notifications instantanées.
+                Gestion de l'affichage des notifications filtrées côté Frontend.
+              </p>
+            </article>
+            <article class="project-card">
+              <h3>Data Pipeline</h3>
+              <p>Développement de la liaison MQTT vers la base de données.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
