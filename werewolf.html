@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loup-Garou | Projet de présentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">Loup-Garou</div>
+        <nav class="site-nav">
+          <a href="index.html#projets">Portfolio</a>
+          <a href="#presentation">Présentation</a>
+          <a href="#fonctionnalites">Fonctionnalités</a>
+          <a href="#tech">Technologies</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="presentation" class="hero section-padding">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Projet Loup-Garou</p>
+            <h2>Et si vous n'aviez plus besoin d'être narrateur?</h2>
+            <p class="hero-description">
+              Cette application est une adaptation moderne et connectée du
+              mythique jeu du Loup-Garou. Conçue pour éliminer la lourdeur de la
+              distribution des cartes et de la gestion du maître du jeu,
+              l'application automatise les cycles jour/nuit et la distribution
+              secrète des rôles. Grâce à une synchronisation en temps réel, les
+              joueurs peuvent se concentrer sur l'essentiel : débattre, bluffer,
+              voter et débusquer les loups cachés parmi les villageois.
+            </p>
+            <div class="hero-actions">
+              <a
+                href="https://github.com/cherbobs/loup-garou-frontend"
+                class="button button-secondary"
+                >Voir le code</a
+              >
+            </div>
+          </div>
+          <div class="hero-photo-card">
+            <div
+              class="hero-photo-werewolf"
+              aria-label="Illustration de l'application Loup-Garou"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fonctionnalites" class="section-padding section-muted">
+        <div class="container">
+          <div class="section-header">
+            <h2>Fonctionnement technique</h2>
+          </div>
+          <div class="card-grid">
+            <article class="project-card">
+              <p class="meta">Gestion locale des joueurs</p>
+              <p>
+                Enregistrement rapide de tous les participants sur le même
+                appareil avant le lancement de la partie et attribution
+                aléatoire des rôles.
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="meta">Moteur de jeu & Cycle de vie</p>
+              <p>
+                Automatisation complète de l'ordre d'action des personnages
+                (Voyante, Sorcière, Loups...) et transition fluide entre les
+                phases de nuit et de jour.
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="meta">Système de vote intégré</p>
+              <p>
+                Interface interactive permettant à chaque joueur de désigner un
+                coupable sur l'écran lors des phases de débat, avec calcul
+                instantané et élimination automatique du joueur ciblé.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tech" class="section-padding">
+        <div class="container">
+          <div class="section-header">
+            <h2>Technologies utilisées</h2>
+          </div>
+          <div class="skills-grid">
+            <span class="skill">React native</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">Express</span>
+            <span class="skill">Zustand</span>
+            <span class="skill">Figma</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section id="contact" class="section-padding section-muted">
+      <div class="container">
+        <div class="section-header">
+          <h2>Mes apprentissages</h2>
+        </div>
+        <div class="card-grid">
+          <article class="project-card">
+            <h3>Architecture d'état avec Zustand</h3>
+            <p>
+              Conception d'un store global pour centraliser et piloter toute la
+              logique du jeu (historique des actions, rôles actifs, état des
+              joueurs en vie/morts) de manière fluide et sans aucune API
+              externe.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Algorithme de déroulement (Game Loop)</h3>
+            <p>
+              Développement de la logique séquentielle gérant les réveils
+              successifs des différents personnages et la résolution automatique
+              des actions nocturnes au lever du jour.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Typage et sécurisation des données avec TypeScript</h3>
+            <p>
+              Modélisation stricte des différents types de rôles, des états de
+              vie/mort et des actions possibles, permettant d'éviter les bugs de
+              logique durant les phases de transition du jeu.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
