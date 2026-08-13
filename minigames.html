@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Jeux | Projet de présentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">Mini Jeux</div>
+        <nav class="site-nav">
+          <a href="index.html#projets">Portfolio</a>
+          <a href="#presentation">Présentation</a>
+          <a href="#fonctionnalites">Fonctionnalités</a>
+          <a href="#tech">Technologies</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="presentation" class="hero section-padding">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Projet Mini Jeux</p>
+            <h2>Défiez vos proches dans des duels captivants !</h2>
+            <p class="hero-description">
+              Cette application rassemble une sélection de mini-jeux
+              incontournables conçus spécialement pour deux joueurs. Fini le
+              matériel encombrant : affrontez directement vos amis ou votre
+              partenaire sur un même appareil ou à distance. Grâce à des règles
+              simples, une prise en main immédiate et un suivi en temps réel,
+              l'application transforme chaque pause en une compétition ludique
+              et conviviale.
+            </p>
+            <div class="hero-actions">
+              <a href="https://mini-jeux-six.vercel.app/" class="button"
+                >Voir la démo</a
+              >
+              <a
+                href="https://github.com/cherbobs/mini-jeux"
+                class="button button-secondary"
+                >Voir le code</a
+              >
+            </div>
+          </div>
+          <div class="hero-photo-card">
+            <div
+              class="hero-photo-minigames"
+              aria-label="Illustration de l'application Mini Jeux"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fonctionnalites" class="section-padding section-muted">
+        <div class="container">
+          <div class="section-header">
+            <h2>Fonctionnement technique</h2>
+          </div>
+          <div class="card-grid">
+            <article class="project-card">
+              <p class="meta">Architecture multi-jeux évolutive</p>
+              <p>
+                Structure modulaire permettant d'intégrer facilement de nouveaux
+                jeux en duo via une interface commune et un registre de
+                composants dynamique.
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="meta">Gestion dynamique des tours et des scores</p>
+              <p>
+                Supervision temps réel de l'alternance des deux joueurs, calcul
+                automatique des conditions de victoire et historique des manches
+                au sein de chaque partie.
+              </p>
+            </article>
+            <article class="project-card">
+              <p class="meta">Isolation de l'état des parties</p>
+              <p>
+                Encapsulation stricte des données propres à chaque mini-jeu pour
+                éviter les conflits de variables et garantir un reset propre à
+                chaque nouvelle session.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tech" class="section-padding">
+        <div class="container">
+          <div class="section-header">
+            <h2>Technologies utilisées</h2>
+          </div>
+          <div class="skills-grid">
+            <span class="skill">React.js</span>
+            <span class="skill">Claude Code</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
